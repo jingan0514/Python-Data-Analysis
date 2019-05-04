@@ -16,7 +16,7 @@ with open(csvpath, newline = '') as csvfile:
         candidate.update({row[2]: 1})
         candidate_list = list(candidate.keys())
 
-textpath = os.path.join('.', 'Financial Analysis.txt')
+textpath = os.path.join('.', 'Election Resultss.txt')
 with open(textpath, 'w') as text:
 
     print('Election Results')
